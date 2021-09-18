@@ -22,5 +22,11 @@ namespace Win_DirFile4
             Application.Exit();
             //test  ttt
         }
+
+        private void Btn_CzytajKat_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Czytamy ...";
+            label1.Text = "Przeczytano";
+        }
     }
 }
