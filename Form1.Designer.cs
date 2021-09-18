@@ -49,6 +49,7 @@
             this.Btn_Exit.TabIndex = 2;
             this.Btn_Exit.Text = "Wyjście";
             this.Btn_Exit.UseVisualStyleBackColor = true;
+            this.Btn_Exit.Click += new System.EventHandler(this.Btn_Exit_Click);
             // 
             // Form1
             // 

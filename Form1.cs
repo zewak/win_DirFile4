@@ -17,6 +17,9 @@ namespace Win_DirFile4
             InitializeComponent();
         }
 
-
+        private void Btn_Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
