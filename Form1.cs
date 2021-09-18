@@ -21,5 +21,15 @@ namespace Win_DirFile4
         {
             Application.Exit();
         }
+
+        private void Btn_ReadDir_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Czytamy...";
+            LV_files1.Items.Add("Jeden");
+            LV_files1.Items.Add("Dwa");
+            LB_files1.Items.Add("Jeden");
+            LB_files1.Items.Add("Trzy");
+            label1.Text = "Przeczytano";
+        }
     }
 }
