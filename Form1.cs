@@ -20,7 +20,7 @@ namespace Win_DirFile4
         private void Btn_Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-            //test
+            //test  ttt
         }
     }
 }
