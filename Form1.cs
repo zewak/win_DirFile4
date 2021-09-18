@@ -30,6 +30,7 @@ namespace Win_DirFile4
             LB_files1.Items.Add("Jeden");
             LB_files1.Items.Add("Trzy");
             label1.Text = "Przeczytano";
+            //test gałęzi zx_stacjonar
         }
     }
 }
