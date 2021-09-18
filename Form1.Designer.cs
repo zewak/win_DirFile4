@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Btn_Exit = new System.Windows.Forms.Button();
             this.Btn_CzytajKat = new System.Windows.Forms.Button();
+            this.TB_path1 = new System.Windows.Forms.TextBox();
+            this.LB_Files1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -62,11 +64,29 @@
             this.Btn_CzytajKat.UseVisualStyleBackColor = true;
             this.Btn_CzytajKat.Click += new System.EventHandler(this.Btn_CzytajKat_Click);
             // 
+            // TB_path1
+            // 
+            this.TB_path1.Location = new System.Drawing.Point(394, 418);
+            this.TB_path1.Name = "TB_path1";
+            this.TB_path1.Size = new System.Drawing.Size(193, 20);
+            this.TB_path1.TabIndex = 4;
+            this.TB_path1.Text = "c:\\temp";
+            // 
+            // LB_Files1
+            // 
+            this.LB_Files1.FormattingEnabled = true;
+            this.LB_Files1.Location = new System.Drawing.Point(12, 7);
+            this.LB_Files1.Name = "LB_Files1";
+            this.LB_Files1.Size = new System.Drawing.Size(373, 433);
+            this.LB_Files1.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LB_Files1);
+            this.Controls.Add(this.TB_path1);
             this.Controls.Add(this.Btn_CzytajKat);
             this.Controls.Add(this.Btn_Exit);
             this.Controls.Add(this.label1);
@@ -81,6 +101,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Btn_Exit;
         private System.Windows.Forms.Button Btn_CzytajKat;
+        private System.Windows.Forms.TextBox TB_path1;
+        private System.Windows.Forms.ListBox LB_Files1;
     }
 }
 

@@ -20,12 +20,17 @@ namespace Win_DirFile4
         private void Btn_Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-            //test  ttt
+            // wyście z aplikacji
         }
 
         private void Btn_CzytajKat_Click(object sender, EventArgs e)
         {
             label1.Text = "Czytamy ...";
+
+            LB_Files1.Items.Add("Pierszy");
+            LB_Files1.Items.Add("Drugi");
+            LB_Files1.Items.Add("Trzeci");
+
             label1.Text = "Przeczytano";
         }
     }
