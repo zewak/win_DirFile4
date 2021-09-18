@@ -1,0 +1,10 @@
+E:\kody\Win_DirFile4\bin\Debug\Win_DirFile4.exe.config
+E:\kody\Win_DirFile4\bin\Debug\Win_DirFile4.exe
+E:\kody\Win_DirFile4\bin\Debug\Win_DirFile4.pdb
+E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.csprojAssemblyReference.cache
+E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.Form1.resources
+E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.Properties.Resources.resources
+E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.csproj.GenerateResource.cache
+E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.csproj.CoreCompileInputs.cache
+E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.exe
+E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.pdb
