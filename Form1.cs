@@ -29,7 +29,7 @@ namespace Win_DirFile4
             LV_files1.Items.Add("Dwa");
             LB_files1.Items.Add("Jeden");
             LB_files1.Items.Add("Trzy");
-            label1.Text = "Przeczytano";
+            label1.Text = "Przeczytano: "+TB1_dir1.Text;
             //test gałęzi zx_stacjonar
         }
     }
