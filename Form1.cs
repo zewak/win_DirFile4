@@ -30,8 +30,8 @@ namespace Win_DirFile4
             LV_files1.Items.Add("Dwa");
             LB_files1.Items.Add("Jeden");
             LB_files1.Items.Add("Trzy");
-            string[] pliki = Directory.GetFiles("E:\\temp");
-            foreach (string plik in pliki)
+            string[] pliki = Directory.GetFiles(TB1_dir1.Text);
+            foreach (string plik in pliki) 
                 LB_files1.Items.Add(plik);
             label1.Text = "Przeczytano: "+TB1_dir1.Text;
 
