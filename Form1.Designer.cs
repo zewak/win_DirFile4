@@ -31,9 +31,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Btn_ReadDir = new System.Windows.Forms.Button();
-            this.LV_files1 = new System.Windows.Forms.ListView();
+            this.LV_dirs1 = new System.Windows.Forms.ListView();
             this.TB1_dir1 = new System.Windows.Forms.TextBox();
             this.LB_files1 = new System.Windows.Forms.ListBox();
+            this.Btn_Read_C = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -65,14 +66,15 @@
             this.Btn_ReadDir.UseVisualStyleBackColor = true;
             this.Btn_ReadDir.Click += new System.EventHandler(this.Btn_ReadDir_Click);
             // 
-            // LV_files1
+            // LV_dirs1
             // 
-            this.LV_files1.HideSelection = false;
-            this.LV_files1.Location = new System.Drawing.Point(17, 15);
-            this.LV_files1.Name = "LV_files1";
-            this.LV_files1.Size = new System.Drawing.Size(311, 421);
-            this.LV_files1.TabIndex = 3;
-            this.LV_files1.UseCompatibleStateImageBehavior = false;
+            this.LV_dirs1.HideSelection = false;
+            this.LV_dirs1.Location = new System.Drawing.Point(17, 15);
+            this.LV_dirs1.Name = "LV_dirs1";
+            this.LV_dirs1.Size = new System.Drawing.Size(311, 421);
+            this.LV_dirs1.TabIndex = 3;
+            this.LV_dirs1.UseCompatibleStateImageBehavior = false;
+            this.LV_dirs1.SelectedIndexChanged += new System.EventHandler(this.LV_dirs1_SelectedIndexChanged);
             // 
             // TB1_dir1
             // 
@@ -90,14 +92,25 @@
             this.LB_files1.Size = new System.Drawing.Size(265, 290);
             this.LB_files1.TabIndex = 5;
             // 
+            // Btn_Read_C
+            // 
+            this.Btn_Read_C.Location = new System.Drawing.Point(605, 386);
+            this.Btn_Read_C.Name = "Btn_Read_C";
+            this.Btn_Read_C.Size = new System.Drawing.Size(86, 23);
+            this.Btn_Read_C.TabIndex = 6;
+            this.Btn_Read_C.Text = "Czytaj c:\\";
+            this.Btn_Read_C.UseVisualStyleBackColor = true;
+            this.Btn_Read_C.Click += new System.EventHandler(this.Btn_Read_C_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Btn_Read_C);
             this.Controls.Add(this.LB_files1);
             this.Controls.Add(this.TB1_dir1);
-            this.Controls.Add(this.LV_files1);
+            this.Controls.Add(this.LV_dirs1);
             this.Controls.Add(this.Btn_ReadDir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -113,9 +126,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Btn_ReadDir;
-        private System.Windows.Forms.ListView LV_files1;
+        private System.Windows.Forms.ListView LV_dirs1;
         private System.Windows.Forms.TextBox TB1_dir1;
         private System.Windows.Forms.ListBox LB_files1;
+        private System.Windows.Forms.Button Btn_Read_C;
     }
 }
 
