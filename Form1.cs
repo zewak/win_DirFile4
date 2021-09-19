@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +30,11 @@ namespace Win_DirFile4
             LV_files1.Items.Add("Dwa");
             LB_files1.Items.Add("Jeden");
             LB_files1.Items.Add("Trzy");
+            string[] pliki = Directory.GetFiles("E:\\temp");
+            foreach (string plik in pliki)
+                LB_files1.Items.Add(plik);
             label1.Text = "Przeczytano: "+TB1_dir1.Text;
+
             //test gałęzi zx_stacjonar
         }
     }
