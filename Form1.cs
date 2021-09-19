@@ -80,6 +80,18 @@ namespace Win_DirFile4
                 ;
             }
 
+            LB_Dirs2.Items.Clear();
+            try
+            {
+                string[] katalogi = Directory.GetDirectories(path);
+                foreach (string katalog in katalogi)
+                    LB_Dirs2.Items.Add(katalog);
+            }
+            catch (Exception ex)
+            {
+                ;
+            }
+
         }
 
         private void LV_dirs1_SelectedIndexChanged(object sender, EventArgs e)
@@ -92,6 +104,13 @@ namespace Win_DirFile4
             {
                 ;
             }
+        }
+
+        private void LB_files1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int a = LB_files1.SelectedIndex;
+            label1.Text = "Index: "+a;
+            TB1_dir1.Text = (string)LB_files1.Items[a];
         }
     }
 }
