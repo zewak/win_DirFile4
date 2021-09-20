@@ -52,6 +52,8 @@ namespace Win_DirFile4
 
             label1.Text = "Przeczytano: "+TB1_dir1.Text;
 
+            Read_Dir(TB1_dir1.Text);
+
             //test gałęzi zx_stacjonar
         }
 
@@ -111,6 +113,19 @@ namespace Win_DirFile4
             int a = LB_files1.SelectedIndex;
             label1.Text = "Index: "+a;
             TB1_dir1.Text = (string)LB_files1.Items[a];
+        }
+
+        private void LB_Dirs2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int a = LB_Dirs2.SelectedIndex;
+            label1.Text = "Index: " + a;
+            TB1_dir1.Text = (string)LB_Dirs2.Items[LB_Dirs2.SelectedIndex];
+        }
+
+        private void Btn_CzytajObraz_Click(object sender, EventArgs e)
+        {
+            ///PicBox1.Image = Bitmap.FromFile("E:\\Laleczki\\jpg\\default-07d797133ed776fbb337d0c1cd539e48.jpg");
+            PicBox1.Image = Bitmap.FromFile((string)LB_files1.Items[LB_files1.SelectedIndex]);
         }
     }
 }

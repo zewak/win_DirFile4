@@ -36,6 +36,9 @@
             this.LB_files1 = new System.Windows.Forms.ListBox();
             this.Btn_Read_C = new System.Windows.Forms.Button();
             this.LB_Dirs2 = new System.Windows.Forms.ListBox();
+            this.PicBox1 = new System.Windows.Forms.PictureBox();
+            this.Btn_CzytajObraz = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -112,12 +115,34 @@
             this.LB_Dirs2.Name = "LB_Dirs2";
             this.LB_Dirs2.Size = new System.Drawing.Size(311, 264);
             this.LB_Dirs2.TabIndex = 7;
+            this.LB_Dirs2.SelectedIndexChanged += new System.EventHandler(this.LB_Dirs2_SelectedIndexChanged);
+            // 
+            // PicBox1
+            // 
+            this.PicBox1.Location = new System.Drawing.Point(605, 260);
+            this.PicBox1.Name = "PicBox1";
+            this.PicBox1.Size = new System.Drawing.Size(189, 120);
+            this.PicBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicBox1.TabIndex = 8;
+            this.PicBox1.TabStop = false;
+            // 
+            // Btn_CzytajObraz
+            // 
+            this.Btn_CzytajObraz.Location = new System.Drawing.Point(605, 231);
+            this.Btn_CzytajObraz.Name = "Btn_CzytajObraz";
+            this.Btn_CzytajObraz.Size = new System.Drawing.Size(189, 23);
+            this.Btn_CzytajObraz.TabIndex = 9;
+            this.Btn_CzytajObraz.Text = "Czytaj Obrazzek";
+            this.Btn_CzytajObraz.UseVisualStyleBackColor = true;
+            this.Btn_CzytajObraz.Click += new System.EventHandler(this.Btn_CzytajObraz_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Btn_CzytajObraz);
+            this.Controls.Add(this.PicBox1);
             this.Controls.Add(this.LB_Dirs2);
             this.Controls.Add(this.Btn_Read_C);
             this.Controls.Add(this.LB_files1);
@@ -128,6 +153,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Win_DirFile4";
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,6 +169,8 @@
         private System.Windows.Forms.ListBox LB_files1;
         private System.Windows.Forms.Button Btn_Read_C;
         private System.Windows.Forms.ListBox LB_Dirs2;
+        private System.Windows.Forms.PictureBox PicBox1;
+        private System.Windows.Forms.Button Btn_CzytajObraz;
     }
 }
 
