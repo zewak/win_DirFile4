@@ -8,3 +8,13 @@ E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.csproj.GenerateResource.cache
 E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.csproj.CoreCompileInputs.cache
 E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.exe
 E:\kody\Win_DirFile4\obj\Debug\Win_DirFile4.pdb
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\bin\Debug\Win_DirFile4.exe.config
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\bin\Debug\Win_DirFile4.exe
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\bin\Debug\Win_DirFile4.pdb
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\obj\Debug\Win_DirFile4.csprojAssemblyReference.cache
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\obj\Debug\Win_DirFile4.Properties.Resources.resources
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\obj\Debug\Win_DirFile4.csproj.GenerateResource.cache
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\obj\Debug\Win_DirFile4.csproj.CoreCompileInputs.cache
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\obj\Debug\Win_DirFile4.exe
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\obj\Debug\Win_DirFile4.pdb
+C:\Users\NowakZ\Source\Repos\zewak\win_DirFile4\obj\Debug\Win_DirFile4.WeatherForecast.resources
